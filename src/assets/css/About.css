@@ -1,5 +1,6 @@
 .top-div {
   padding-top: 50px;
+  overflow: hidden;
 }
 
 h1 {
