@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col } from "antd";
+import { Grid, Row, Col } from "react-bootstrap";
 
 import "../../assets/css/Teams.css";
 
@@ -10,8 +10,12 @@ class Teams extends Component {
     return data.teams.map(team => {
       return (
         <Row>
-          <Col sm={24} md={8}>
+          <Col sm={12} md={3} className="team-pic">
             <img src={team.img} />
+          </Col>
+          <Col sm={12} md={9} className="team-info">
+            <h3>{team.name}</h3>
+            <p>{team.description}</p>
           </Col>
         </Row>
       );
@@ -21,12 +25,14 @@ class Teams extends Component {
   render() {
     return (
       <React.Fragment>
-        <Row className="header">
-          <Col sm={24}>
-            <h1>Meet The Team...</h1>
-          </Col>
-        </Row>
-        <div className="teams">{this.showTeams()}</div>
+        <Grid>
+          <Row className="header">
+            <Col sm={24}>
+              <h1>Meet The Team...</h1>
+            </Col>
+          </Row>
+          <div className="teams">{this.showTeams()}</div>
+        </Grid>
       </React.Fragment>
     );
   }
