@@ -20,8 +20,6 @@ class About extends Component {
           ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           potenti.
         </p>
-        <h1>Meet the Team...</h1>
-        <Team />
       </div>
     );
   }
