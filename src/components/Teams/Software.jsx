@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "../../assets/css/Software.css";
+
 class Software extends Component {
   render() {
     return (
