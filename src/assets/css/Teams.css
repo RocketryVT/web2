@@ -10,6 +10,7 @@
 .team-pic img {
   width: 50%;
   border-radius: 10%;
+  margin-bottom: 5%;
 }
 
 .team-info {
@@ -17,6 +18,5 @@
 }
 
 .team-info p {
-  margin-right: 30%;
   margin-bottom: 10%;
 }

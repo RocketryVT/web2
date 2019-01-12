@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../assets/css/About.css";
-import Team from "./Team";
 
 class About extends Component {
   render() {
