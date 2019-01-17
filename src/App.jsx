@@ -20,6 +20,7 @@ class App extends Component {
           <Route path="/teams" component={Teams} />
           <Route path="/apply" component={Apply} />
           <Route path="/software" component={Software} />
+          <Footer />
         </div>
       </Router>
     );
