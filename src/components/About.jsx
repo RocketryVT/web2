@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../assets/css/About.css";
-import Team from "./Team";
 
 class About extends Component {
   render() {
@@ -20,8 +19,6 @@ class About extends Component {
           ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           potenti.
         </p>
-        <h1>Meet the Team...</h1>
-        <Team />
       </div>
     );
   }

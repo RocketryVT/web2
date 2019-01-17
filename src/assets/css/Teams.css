@@ -1,0 +1,32 @@
+.header {
+  margin: 100px;
+  text-align: center;
+}
+
+.team-pic {
+  text-align: center;
+}
+
+.team-pic img {
+  width: 50%;
+  border-radius: 10%;
+  margin-bottom: 5%;
+}
+
+.team-info {
+  text-align: left;
+}
+
+.team-info p {
+  margin-bottom: 10%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(80, 79, 79);
+  text-decoration: none;
+}
