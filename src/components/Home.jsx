@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Grid, Row, Col, Image, Button } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import { Carousel } from "react-responsive-carousel";
+import About from "./About";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../assets/css/Home.css";
@@ -39,7 +40,9 @@ class Home extends Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel> */}
+        <About />
       </div>
+
     );
   }
 }

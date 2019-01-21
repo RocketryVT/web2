@@ -4,7 +4,7 @@ import { Grid, Row, Col } from "react-bootstrap";
 
 import "../../assets/css/Teams.css";
 
-import * as data from "./teams.json";
+import * as data from "../../assets/data.json";
 
 class Teams extends Component {
   showTeams() {
