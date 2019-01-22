@@ -13,7 +13,7 @@ class Footer extends Component {
             <Col className="footer-left" sm={6}>
               <Row>
                 <a href="mailto:rocketry.vt@gmail.com">
-                  <h4>Rocketry.vt@gmail.com</h4>
+                  <h4>rocketry.vt@gmail.com</h4>
                 </a>
               </Row>
               <Row>

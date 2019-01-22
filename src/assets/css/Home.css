@@ -1,26 +1,12 @@
-.container {
-  width: auto;
+.container-fluid {
+  width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
-}
-
-.carousel {
-  height: 100vh;
-  width: 100%;
   overflow: hidden;
 }
-.carousel .carousel-inner {
-  height: 100%;
-}
 
-.carousel .carousel-inner img {
-  display: block;
-  object-fit: cover;
-}
-
-.about-btn {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  z-index: 10;
+.resp {
+  width: 100%;
+  height: auto;
 }
