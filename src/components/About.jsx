@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="top-div">
         <h1>What is Rocketry at VT?</h1>
-        <p>
+        <p className="about-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           auctor nisl non risus consequat volutpat. Morbi tristique ut nisl ut
           aliquam. Nam tempus libero nibh, sed suscipit nulla sollicitudin eu.
