@@ -23,6 +23,18 @@
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
       "link": "/software"
+    },
+    {
+      "name": "Aero-Structures",
+      "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "link": "/software"
+    },
+    {
+      "name": "Design Validation",
+      "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "link": "/software"
     }
   ]
 }
