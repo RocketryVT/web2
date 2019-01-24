@@ -30,3 +30,9 @@ a:hover {
   color: rgb(80, 79, 79);
   text-decoration: none;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:700");
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}

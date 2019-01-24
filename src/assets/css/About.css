@@ -4,7 +4,9 @@
 }
 
 h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 15px !important;
+}
+
+.about-p {
+  margin: 2% 15%;
 }
