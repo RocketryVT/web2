@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "../assets/css/About.css";
-import Team from "./Team";
 
 class About extends Component {
   render() {
     return (
       <div className="top-div">
         <h1>What is Rocketry at VT?</h1>
-        <p>
+        <p className="about-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           auctor nisl non risus consequat volutpat. Morbi tristique ut nisl ut
           aliquam. Nam tempus libero nibh, sed suscipit nulla sollicitudin eu.
@@ -20,8 +19,6 @@ class About extends Component {
           ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           potenti.
         </p>
-        <h1>Meet the Team...</h1>
-        <Team />
       </div>
     );
   }

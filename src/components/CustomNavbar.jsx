@@ -22,15 +22,15 @@ class CustomNavbar extends Component {
               Home
             </NavItem>
             <NavItem
-              eventKey={2}
+              eventKey={3}
               componentClass={Link}
-              href="/about"
-              to="/about"
+              href="/teams"
+              to="/teams"
             >
-              About
+              Teams
             </NavItem>
             <NavItem
-              eventKey={3}
+              eventKey={4}
               componentClass={Link}
               href="/apply"
               to="/apply"

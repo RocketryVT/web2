@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Col, Row, Image } from "react-bootstrap";
-import "../assets/css/Team.css";
 import portrait from "../assets/images/elon.jpg";
 
 class Team extends Component {
