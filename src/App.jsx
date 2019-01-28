@@ -6,7 +6,7 @@ import About from "./components/About";
 import Teams from "./components/Teams/Teams.jsx";
 import Apply from "./components/Apply";
 import Navbar from "./components/CustomNavbar";
-import Software from "./components/Teams/Software";
+import Software from "./components/Teams/Software/Software";
 import Footer from "./components/Footer";
 
 class App extends Component {
