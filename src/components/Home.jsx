@@ -5,7 +5,6 @@ import About from "./About";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../assets/css/Home.css";
 import coverPhoto from "../assets/images/rocket_fullscreen.jpg";
-import data from "../assets/data.json"
 
 class Home extends Component {
   render() {
