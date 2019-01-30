@@ -3,38 +3,41 @@
     {
       "name": "Software",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "description": "The avionics and software subteams work very closely together. This year the software subteam has the goal of creating a “smarter” rocket. We would like to leverage our knowledge of Machine Learning (ML) and Artificial Intelligence (AI) to create a rocket that can implicitly respond to its environment. This year we are redesigning the ADS software system to predict how high the rocket will reach and starting development on data gathering for next year where we hope to create a ADS that will run off of machine learning algorithms that we designed this year. Next, we are focusing on creating an anomaly detection algorithms for the hybrid rocket motor so that the rocket will know if and when to throttle or completely shut off itself. We will also be writing the software for a telemetry system and the telemetry systems GUI. Lastly, we will be focused on advancing the skills of our members with various hands on sessions that will deal with cloud computing, version control (Git), AGILE methodologies, ML/AI, and database management.",
       "link": "/software"
     },
     {
       "name": "Payload",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "description": "This year, a scientific research payload will be constructed and flown at the 2019 Spaceport America Cup. The payload will also be entered into the Space Dynamics Laboratory payload challenge. In the past, a successful payload has been one that addresses relevant issues to the aerospace/ rocketry community and takes advantage of the unique factors associated with high powered rocketry. Previously, Rocketry at Virginia Tech has made a weather data collection probe targeted towards tornado research and a test to determine the effects of motor exhaust on radio attenuation. We are currently exploring ideas for this years competition involving machine learning, vibration reduction, advanced imaging technology, effects of foreign objects and debris (FOD), and altimeter selection/ evaluation. Ideas across all STEM related fields are being considered until our October 26th deadline, where the most innovative and applicable experiment will be selected. Upon selection, an update containing the payload proposal will be sent to the potential sponsors. The student designed scientific payload will be constrained to a 3U form factor and fully independent of the launch vehicle.",
       "link": "/software"
     },
     {
       "name": "Propulsion",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "description": "For the upcoming year Rocketry at Virginia Tech will be developing and manufacturing its own hybrid rocket motor propulsion system for use in the 2019 Spaceport America Cup. Over the past two years, extensive efforts have been made working with Virginia Tech’s Environmental Health and Safety department as well as the Aerospace Engineering Department to develop efficient and safe operational procedures.",
       "link": "/software"
     },
     {
       "name": "Avionics",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "description": "this year we are developing a live telemetry system which will enable us to receive live feedback of the flight from the rocket. To reinforce safety of successful recovery, we are developing a Landing Location Estimation program. All those advanced calculations will be enabled by a new on-board computer that will be developed this year. To improve future flights, we will implant various sensors throughout the rocket in efforts to collect rich and diverse flight data that can be used in the future projects.",
       "link": "/software"
     },
     {
       "name": "Aero-Structures",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
-      "link": "/software"
+      "description": "The Vehicle Development team is responsible for overall design and fabrication of the launch vehicle. This team starts with producing a two dimensional model of the launch vehicle and computes the basic flight performance characteristics of the rocket. The team takes these blueprints and creates a 3D CAD model that represents every detail of the rocket down to each individual bolt. We pride ourselves in manufacturing the majority of our vehicle components in house. We are continuously improving our composite manufacturing process, which was first implemented for the 2017 Spaceport America Cup",
+      "link" : "/software"
     },
     {
       "name": "Design Validation",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur tellus. Curabitur justo metus, vehicula nec semper ut, gravida eu mauris. Duis vestibulum interdum lacus id venenatis. Sed aliquam mauris id tincidunt viverra. Morbi interdum neque ut nulla vulputate accumsan. In tempus quam ex, non imperdiet turpis mattis a. Praesent sit amet tincidunt urna, vitae dictum lectus.",
+      "description": "This year, a special emphasis will be placed on design validation of our sounding rocket. This will come in two components; first, critical structural components of the rocket will be analyzed using contemporary finite element techniques. Characteristics such as local areas of stress concentration, vibrational modes, and critical buckling load of the the carbon fiber composite airframe will be analyzed. Knowing these will allow the team to understand the structural behavior of the rocket during flight, allowing us to structurally optimize the rocket. To conduct this analysis, open source and commercial software will be used. These may include ANSYS and Abuqus.",
       "link": "/software"
     }
-  ]
+  ],
+  "HomePage" : {
+    "AboutSplash": "Rocketry at Virginia Tech is an organization dedicated to exploring and testing the limits of high-powered amateur rocketry and sharing that experience with the rest of Virginia Tech. As a club, we help students get their high power rocketry certification from Tripoli Rocket Association or the National Association of Rocketry with the support of New River Valley Rocketry, the local rocket club. As a design team, we compete in competitions across the country - continually pushing the limits of what we know to go higher, faster, and farther. This is our fourth year as a team. This year, our team is composed of 50+ undergraduate students of all ages, from freshmen to seniors, across several STEM majors - from aerospace and mechanical engineers, to biomedical engineers and students of physics and engineering mechanics. Each member brings a variety of experiences to the table; we have students with several years of experience with high-power rocket competitions and with official high power certifications. Regardless of previous experience, Rocketry at Virginia Tech seeks to foster an environment in which members can explore their passion for high powered rocketry. That blend of experience and passion lends itself well to the nature of our work; we have a wide pool of experience, knowledge, and interests from which we can draw ideas from in a fun and constructive environment."
+  }
 }
