@@ -15,6 +15,12 @@
   height: 100%;
 }
 
+.overlay p {
+  margin: 0%;
+  color: rgb(235, 235, 235);
+  font-size: 1.2em;
+}
+
 .overlay:hover {
   background-color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
@@ -22,4 +28,8 @@
 
 .card-container {
   text-align: center;
+}
+
+.filler {
+  height: 500px;
 }

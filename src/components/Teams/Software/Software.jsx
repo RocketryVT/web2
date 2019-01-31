@@ -21,8 +21,9 @@ class Software extends Component {
           felis. Praesent congue eu ipsum a tincidunt. Cras posuere eros ipsum,
           sit amet aliquet risus ultrices feugiat.
         </p>
-        <h3>Recent Projects</h3>
-        <Repos />
+        <div className="repos">
+          <Repos />
+        </div>
       </div>
     );
   }

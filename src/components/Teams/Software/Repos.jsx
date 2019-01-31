@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Col, Row } from "react-bootstrap";
-import { Card } from "antd";
 
 import "../../../assets/css/Repos.css";
 const Octokit = require("@octokit/rest");
@@ -69,9 +68,11 @@ class Repos extends Component {
       <Grid fluid className="card-container">
         <Row>
           <Col xs={6} md={12}>
+            <h3>Recent Projects</h3>
             {this.showRepos()}
           </Col>
         </Row>
+        <div className="filler" />
       </Grid>
     );
   }
