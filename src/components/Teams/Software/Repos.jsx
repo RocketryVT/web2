@@ -32,36 +32,43 @@ class Repos extends Component {
 
   // Gets profile image url of top contributor to repo
   getTopContributor() {
-    let me = octokit.repos
+    return octokit.repos
       .listContributors({
         owner: "RocketryVT",
         repo: "Website"
       })
       .then(resp => resp.data[0].avatar_url);
-    console.log(me);
   }
 
   // Returns cards of repos
   showRepos() {
+    console.log("repos: ", this.state.repos);
     return this.state.repos.map((repo, index) => {
+      let url = repo.svn_url;
       return (
-        <Card
+        <div
           key={index}
+          onClick={() => this.handleClick(url)}
           className="repo-cards"
-          cover={<img alt="card cover" src="" />}
         >
-          <p>{repo.name}</p>
-        </Card>
+          <div className="overlay">
+            <p>{repo.name}</p>
+          </div>
+        </div>
       );
     });
+  }
+
+  // Opens clicked repository in a new tab
+  handleClick(url) {
+    window.open(url, "_blank");
   }
 
   render() {
     return (
       <Grid fluid className="card-container">
-        {this.getTopContributor()}
         <Row>
-          <Col sm={6} md={12}>
+          <Col xs={6} md={12}>
             {this.showRepos()}
           </Col>
         </Row>
