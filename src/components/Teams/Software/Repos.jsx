@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Col, Row } from "react-bootstrap";
+import { Tag } from "antd";
 
 import "../../../assets/css/Repos.css";
 const Octokit = require("@octokit/rest");
@@ -43,7 +44,7 @@ class Repos extends Component {
   showRepos() {
     console.log("repos: ", this.state.repos);
     return this.state.repos.map((repo, index) => {
-      let url = repo.svn_url;
+      let url = repo.html_url;
       return (
         <div
           key={index}
@@ -52,6 +53,9 @@ class Repos extends Component {
         >
           <div className="overlay">
             <p>{repo.name}</p>
+            <p>
+              <Tag color="#505050">{repo.language}</Tag>
+            </p>
           </div>
         </div>
       );
