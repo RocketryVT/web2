@@ -23,7 +23,7 @@ class Repos extends Component {
       .listForUser({
         username: "RocketryVT",
         sort: "updated",
-        per_page: 5,
+        per_page: 4,
         page: 1
       })
       .then(resp => this.setState({ repos: resp.data }));
@@ -68,7 +68,7 @@ class Repos extends Component {
     return (
       <Grid fluid className="card-container">
         <Row>
-          <Col xs={6} md={12}>
+          <Col>
             <h3>Recent Projects</h3>
             {this.showRepos()}
           </Col>
