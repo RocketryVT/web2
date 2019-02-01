@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 
 import "../../../assets/css/Software.css";
 import Repos from "./Repos";
+import Members from "../Members";
 
 class Software extends Component {
   getRepos() {}
@@ -24,6 +25,7 @@ class Software extends Component {
         <div className="repos">
           <Repos />
         </div>
+        <Members members={/*list of members from json file*/}/>
       </div>
     );
   }
