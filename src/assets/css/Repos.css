@@ -7,6 +7,11 @@
   background-size: 100%;
 }
 
+.repo-cards:hover {
+  width: 305px;
+  height: 205px;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
@@ -15,10 +20,14 @@
   height: 100%;
 }
 
+.overlay .repo-name {
+  font-size: 1.4em;
+}
+
 .overlay p {
   margin: 0%;
   color: rgb(235, 235, 235);
-  font-size: 1.2em;
+  font-size: 1 em;
   position: relative;
   top: 30%;
 }
@@ -26,6 +35,8 @@
 .overlay:hover {
   background-color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
+  width: 305px;
+  height: 205px;
 }
 
 .card-container {

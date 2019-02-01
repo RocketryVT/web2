@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Col, Row } from "react-bootstrap";
-import { Tag } from "antd";
 
 import "../../../assets/css/Repos.css";
 const Octokit = require("@octokit/rest");
@@ -52,10 +51,8 @@ class Repos extends Component {
           className="repo-cards"
         >
           <div className="overlay">
-            <p>{repo.name}</p>
-            <p>
-              <Tag color="#505050">{repo.language}</Tag>
-            </p>
+            <p className="repo-name">{repo.name}</p>
+            <p>{repo.language}</p>
           </div>
         </div>
       );
