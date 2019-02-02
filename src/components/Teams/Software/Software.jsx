@@ -25,7 +25,7 @@ class Software extends Component {
         <div className="repos">
           <Repos />
         </div>
-        <Members members={/*list of members from json file*/}/>
+        <Members />
       </div>
     );
   }
