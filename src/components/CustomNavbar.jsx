@@ -32,6 +32,14 @@ class CustomNavbar extends Component {
             <NavItem
               eventKey={4}
               componentClass={Link}
+              href="/projects"
+              to="/projects"
+            >
+              Projects
+            </NavItem>
+            <NavItem
+              eventKey={5}
+              componentClass={Link}
               href="/apply"
               to="/apply"
             >
