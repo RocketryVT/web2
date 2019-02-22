@@ -8,21 +8,39 @@ import "../../assets/css/Projects.css";
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <div className="rocket">
-          <img src={rocket} alt="rocket" />
-          <div className="nosecone">
-            <CustomModal title="Test Title" description="test description" />
+      <div className="container-fluid bg">
+        <Col md={6} />
+        <Col md={6}>
+          <div className="rocket">
+            <img src={rocket} alt="rocket" />
+            <div className="nosecone">
+              <CustomModal
+                title="Test Title"
+                description="test description"
+                location="/software"
+                buttonTitle="Nosecone"
+              />
+            </div>
+            <div className="payload">
+              <CustomModal
+                title="Test Title"
+                description="test description"
+                location="/software"
+                buttonTitle="Payload"
+              />
+            </div>
+            <div className="avionics">
+              <CustomModal
+                title="Test Title"
+                description="test description"
+                location="/software"
+                buttonTitle="Electronics bay"
+              />
+            </div>
+            <div className="propulsion" />
+            <div className="fins" />
           </div>
-          <div className="payload">
-            <CustomModal title="Test Title" description="test description" />
-          </div>
-          <div className="avionics">
-            <CustomModal title="Test Title" description="test description" />
-          </div>
-          <div className="propulsion" />
-          <div className="fins" />
-        </div>
+        </Col>
       </div>
     );
   }

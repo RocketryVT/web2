@@ -20,7 +20,7 @@ class CustomModal extends Component {
     this.setState({
       visible: false
     });
-    window.location = "/teams";
+    window.location = this.props.location;
   }
 
   handleCancel = () => {
@@ -32,7 +32,9 @@ class CustomModal extends Component {
   render() {
     return (
       <div>
-        <Button onClick={this.showModal}>Open</Button>
+        <button className="btn btn-default" onClick={this.showModal}>
+          {this.props.buttonTitle}
+        </button>
         <Modal
           title={this.props.title}
           onOk={() => this.handleOk()}
