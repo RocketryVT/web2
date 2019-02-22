@@ -1,0 +1,64 @@
+/* .rocket {
+  margin-right: 15%;
+  margin-top: 5%;
+  text-align: right;
+  float: right;
+}
+
+.nosecone {
+  height: 100px;
+  width: 50px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 5%;
+  background-color: aqua;
+} */
+
+.bg {
+  background: #f6f5f3;
+  background: linear-gradient(180deg, #f6f5f3 0%, #bdbcbb 100%);
+}
+
+.rocket {
+  margin-right: 15%;
+  margin-top: 5%;
+  text-align: right;
+  float: right;
+  position: relative;
+}
+
+img {
+  width: 90%;
+}
+
+.nosecone {
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  width: 25%;
+  height: 15%;
+}
+
+.payload {
+  position: absolute;
+  top: 25%;
+  left: 70px;
+  width: 25%;
+  height: 15%;
+}
+
+.avionics {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  width: 25%;
+  height: 10%;
+}
+
+.propulsion {
+  position: absolute;
+  top: 60%;
+  left: 70px;
+  width: 25%;
+  height: 25%;
+}

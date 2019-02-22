@@ -29,8 +29,8 @@ class Footer extends Component {
                 </Link>
               </Row>
               <Row>
-                <Link to="/about">
-                  <h4>About</h4>
+                <Link to="/teams">
+                  <h4>Teams</h4>
                 </Link>
               </Row>
               <Row>

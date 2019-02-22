@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavItem, Image } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/rocketry_layer2.png";
 import "../assets/css/CustomNavbar.css";
@@ -31,6 +31,14 @@ class CustomNavbar extends Component {
             </NavItem>
             <NavItem
               eventKey={4}
+              componentClass={Link}
+              href="/projects"
+              to="/projects"
+            >
+              Projects
+            </NavItem>
+            <NavItem
+              eventKey={5}
               componentClass={Link}
               href="/apply"
               to="/apply"

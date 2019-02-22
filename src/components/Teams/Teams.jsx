@@ -12,7 +12,7 @@ class Teams extends Component {
       return (
         <Row key={team.name}>
           <Col sm={12} md={3} className="team-pic">
-            <img src={team.img} />
+            <img alt="teams" src={team.img} />
           </Col>
           <Col sm={12} md={7} className="team-info">
             <Link to={team.link}>
