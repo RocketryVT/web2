@@ -28,14 +28,17 @@ img {
 
 .nosecone {
   position: absolute;
-  top: 0px;
-  right: 70px;
+  top: 90px;
+  left: 70px;
+  width: 25%;
+  height: 15%;
+  border: 2px solid blue;
 }
 
 .payload {
   position: absolute;
   top: 25%;
-  right: 70px;
+  left: 70px;
   width: 25%;
   height: 15%;
   border: 2px solid maroon;
@@ -44,7 +47,7 @@ img {
 .avionics {
   position: absolute;
   top: 50%;
-  right: 70px;
+  left: 70px;
   width: 25%;
   height: 10%;
   border: 2px solid rgb(176, 214, 72);
@@ -53,7 +56,7 @@ img {
 .propulsion {
   position: absolute;
   top: 60%;
-  right: 70px;
+  left: 70px;
   width: 25%;
   height: 25%;
   border: 2px solid rgb(26, 24, 180);

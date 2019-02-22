@@ -14,8 +14,12 @@ class Projects extends Component {
           <div className="nosecone">
             <CustomModal title="Test Title" description="test description" />
           </div>
-          <div className="payload" />
-          <div className="avionics" />
+          <div className="payload">
+            <CustomModal title="Test Title" description="test description" />
+          </div>
+          <div className="avionics">
+            <CustomModal title="Test Title" description="test description" />
+          </div>
           <div className="propulsion" />
           <div className="fins" />
         </div>
