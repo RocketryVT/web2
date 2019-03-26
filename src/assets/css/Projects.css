@@ -19,6 +19,16 @@
   background: linear-gradient(180deg, #f6f5f3 0%, #bdbcbb 100%);
 }
 
+.info {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.info h4 {
+  line-height: 2em;
+  margin-top: 10%;
+}
+
 .rocket {
   margin-right: 15%;
   margin-top: 5%;
