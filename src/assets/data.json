@@ -19,16 +19,16 @@
       "link": "/software"
     },
     {
-      "name": "Avionics",
+      "name": "Avionics & Recovery",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "this year we are developing a live telemetry system which will enable us to receive live feedback of the flight from the rocket. To reinforce safety of successful recovery, we are developing a Landing Location Estimation program. All those advanced calculations will be enabled by a new on-board computer that will be developed this year. To improve future flights, we will implant various sensors throughout the rocket in efforts to collect rich and diverse flight data that can be used in the future projects.",
+      "description": "The Avionics and Recovery subteam operates to achieve the following three main goals for a successful flight: developing a flight system to achieve a target apogee, obtaining valuable flight data, and installing reliable tracking and recovery system. Having accomplished those goals, our team has taken a critical role in the success of the entire team – from reaching the mission apogee, recovering the rocket, to assisting future research with the flight data.",
       "link": "/software"
     },
     {
       "name": "Aero-Structures",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
       "description": "The Vehicle Development team is responsible for overall design and fabrication of the launch vehicle. This team starts with producing a two dimensional model of the launch vehicle and computes the basic flight performance characteristics of the rocket. The team takes these blueprints and creates a 3D CAD model that represents every detail of the rocket down to each individual bolt. We pride ourselves in manufacturing the majority of our vehicle components in house. We are continuously improving our composite manufacturing process, which was first implemented for the 2017 Spaceport America Cup",
-      "link" : "/software"
+      "link": "/software"
     },
     {
       "name": "Design Validation",
@@ -37,7 +37,7 @@
       "link": "/software"
     }
   ],
-  "HomePage" : {
+  "HomePage": {
     "AboutSplash": "Rocketry at Virginia Tech is an organization dedicated to exploring and testing the limits of high-powered amateur rocketry and sharing that experience with the rest of Virginia Tech. As a club, we help students get their high power rocketry certification from Tripoli Rocket Association or the National Association of Rocketry with the support of New River Valley Rocketry, the local rocket club. As a design team, we compete in competitions across the country - continually pushing the limits of what we know to go higher, faster, and farther. This is our fourth year as a team. This year, our team is composed of 50+ undergraduate students of all ages, from freshmen to seniors, across several STEM majors - from aerospace and mechanical engineers, to biomedical engineers and students of physics and engineering mechanics. Each member brings a variety of experiences to the table; we have students with several years of experience with high-power rocket competitions and with official high power certifications. Regardless of previous experience, Rocketry at Virginia Tech seeks to foster an environment in which members can explore their passion for high powered rocketry. That blend of experience and passion lends itself well to the nature of our work; we have a wide pool of experience, knowledge, and interests from which we can draw ideas from in a fun and constructive environment."
   }
 }
