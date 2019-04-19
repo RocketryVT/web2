@@ -1,0 +1,24 @@
+h1 {
+  margin-top: 150px !important;
+}
+
+p {
+  margin: 15px 0px;
+}
+
+h2 {
+  margin: 0px 25px;
+}
+
+.projects .row {
+  margin: 15px 0px;
+}
+
+.projects h4,
+.projects p {
+  margin: 20px 25px;
+}
+
+.darkmode {
+  background: #d4d4d4;
+}
