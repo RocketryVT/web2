@@ -51,9 +51,9 @@ class Projects extends Component {
             </div>
             <div className="avionics">
               <CustomModal
-                title="Test Title"
-                description="test description"
-                location="/software"
+                title="Electronics Bay"
+                description="Having an easily accessible and amendable platform to work on can accelerate the manufacturing phase and enable the team to fix any issues on the electronics more conveniently. The modular electronics bay that the subteam develops allows the team to access each layer of the bay individually and enables the team to swap out any broken pieces without a problem."
+                location="/avionics"
                 buttonTitle="Electronics bay"
               />
             </div>
