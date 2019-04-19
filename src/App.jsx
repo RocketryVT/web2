@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Apply from "./components/Apply";
 import Navbar from "./components/CustomNavbar";
 import Software from "./components/Teams/Software/Software";
+import Avionics from "./components/Teams/Avionics/Avionics";
 import Footer from "./components/Footer";
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/apply" component={Apply} />
           <Route path="/software" component={Software} />
+          <Route path="/avionics" component={Avionics} />
           <Footer />
         </div>
       </Router>

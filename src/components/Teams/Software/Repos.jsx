@@ -69,7 +69,7 @@ class Repos extends Component {
       <Grid fluid className="card-container">
         <Row>
           <Col>
-            <h3>Recent Projects</h3>
+            <h2>Recent Projects</h2>
             {this.showRepos()}
           </Col>
         </Row>
