@@ -8,14 +8,11 @@ class Avionics extends Component {
   render() {
     return (
       <div>
-        <h1>Avionics and Recovery</h1>
+        <h1 className="animated fadeInDown fast">Avionics and Recovery</h1>
         <Grid fluid className="projects">
           <Row>
-            <h2>Projects</h2>
-          </Row>
-          <Row>
-            <Col md={6}>
-              <h4>Active Drag System (ADS)</h4>
+            <Col md={6} className="animated bounceInLeft">
+              <h3>Active Drag System (ADS)</h3>
               <p>
                 Reaching a desired apogee is crucial in the success of the
                 mission. To control the rocket to meet the target apogee, the
@@ -32,8 +29,9 @@ class Avionics extends Component {
             </Col>
           </Row>
           <Row className="darkmode">
+            <Col md={6} />
             <Col md={6}>
-              <h4>Live Telemetry</h4>
+              <h3>Live Telemetry</h3>
               <p>
                 To control the hybrid motor, to get a live feedback and data
                 from the rocket, and to successfully recover the rocket, a
@@ -45,8 +43,8 @@ class Avionics extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={6}>
-              <h4>Electronics Bay</h4>
+            <Col md={6} className="animated bounceInLeft">
+              <h3>Electronics Bay</h3>
               <p>
                 Having an easily accessible and amendable platform to work on
                 can accelerate the manufacturing phase and enable the team to
@@ -58,8 +56,9 @@ class Avionics extends Component {
             </Col>
           </Row>
           <Row className="darkmode">
+            <Col md={6} />
             <Col md={6}>
-              <h4>Recovery Cycle</h4>
+              <h3>Recovery Cycle</h3>
               <p>
                 As soon as the rocket leaves the launch pad, it is our subteam’s
                 responsibility to bring the rocket back safety. The recovery
