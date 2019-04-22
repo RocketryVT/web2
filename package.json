@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@octokit/rest": "^16.13.3",
+    "animate.css": "^3.7.0",
     "antd": "^3.12.1",
     "bootstrap": "^4.2.1",
     "jquery": "^3.3.1",
