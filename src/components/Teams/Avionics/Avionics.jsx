@@ -1,17 +1,26 @@
 import React, { Component } from "react";
 import { Grid, Col, Row } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import ads from "../../../assets/images/Avionics/ADS.PNG";
 import "../../../assets/css/Avionics.css";
+
+AOS.init();
 
 class Avionics extends Component {
   render() {
     return (
       <div>
-        <h1 className="animated fadeInDown fast">Avionics and Recovery</h1>
+        <h1 data-aos="fade-down">Avionics and Recovery</h1>
         <Grid fluid className="projects">
           <Row>
-            <Col md={6} className="animated bounceInLeft">
+            <Col
+              md={6}
+              data-aos="fade-right"
+              data-aos-delay="80"
+              data-aos-easing="ease-in"
+            >
               <h3>Active Drag System (ADS)</h3>
               <p>
                 Reaching a desired apogee is crucial in the success of the
@@ -30,7 +39,12 @@ class Avionics extends Component {
           </Row>
           <Row className="darkmode">
             <Col md={6} />
-            <Col md={6}>
+            <Col
+              md={6}
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-easing="ease-in"
+            >
               <h3>Live Telemetry</h3>
               <p>
                 To control the hybrid motor, to get a live feedback and data
@@ -43,7 +57,7 @@ class Avionics extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={6} className="animated bounceInLeft">
+            <Col md={6} data-aos="fade-right">
               <h3>Electronics Bay</h3>
               <p>
                 Having an easily accessible and amendable platform to work on
@@ -57,7 +71,7 @@ class Avionics extends Component {
           </Row>
           <Row className="darkmode">
             <Col md={6} />
-            <Col md={6}>
+            <Col md={6} data-aos="fade-left">
               <h3>Recovery Cycle</h3>
               <p>
                 As soon as the rocket leaves the launch pad, it is our subteam’s
