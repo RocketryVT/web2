@@ -16,7 +16,7 @@ class Teams extends Component {
         <Row
           key={team.name}
           data-aos="fade-right"
-          data-aos-delay="50"
+          data-aos-delay="10"
           data-aos-easing="ease-in"
         >
           <Col sm={12} md={3} className="team-pic">
