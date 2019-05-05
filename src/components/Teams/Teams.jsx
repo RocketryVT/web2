@@ -1,16 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Grid, Row, Col } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "../../assets/css/Teams.css";
-
 import * as data from "../../assets/data.json";
+
+AOS.init();
 
 class Teams extends Component {
   showTeams() {
     return data.teams.map(team => {
       return (
-        <Row key={team.name}>
+        <Row
+          key={team.name}
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-easing="ease-in"
+        >
           <Col sm={12} md={3} className="team-pic">
             <img alt="teams" src={team.img} />
           </Col>
@@ -30,7 +38,12 @@ class Teams extends Component {
       <React.Fragment>
         <Grid fluid={true}>
           <Row className="header">
-            <Col sm={24}>
+            <Col
+              sm={24}
+              data-aos="fade-down"
+              data-aos-delay="30"
+              data-aos-easing="ease-in"
+            >
               <h1>Meet The Team...</h1>
             </Col>
           </Row>
