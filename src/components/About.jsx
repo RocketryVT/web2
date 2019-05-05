@@ -7,9 +7,7 @@ class About extends Component {
     return (
       <div className="top-div">
         <h1>What is Rocketry at VT?</h1>
-        <p className="about-p">
-          {data.HomePage.AboutSplash}
-        </p>
+        <p className="about-p">{data.HomePage.AboutSplash}</p>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Teams from "./components/Teams/Teams.jsx";
 import Projects from "./components/Projects/Projects";
 import Apply from "./components/Apply";
-import Navbar from "./components/CustomNavbar";
+import CustomNavbar from "./components/CustomNavbar";
 import Software from "./components/Teams/Software/Software";
 import Avionics from "./components/Teams/Avionics/Avionics";
 import Footer from "./components/Footer";
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Navbar />
+          <CustomNavbar />
           <Route exact path="/" component={Home} />
           <Route path="/teams" component={Teams} />
           <Route path="/projects" component={Projects} />
