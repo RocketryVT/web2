@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import ads from "../../../assets/images/Avionics/ADS.PNG";
+import electronicsBay from "../../../assets/images/Avionics/electronics_bay.jpg";
 import "../../../assets/css/Avionics.css";
 
 AOS.init();
@@ -42,26 +43,16 @@ class Avionics extends Component {
             </Col>
           </Row>
           <Row className="darkmode">
-            <Col md={6} />
+            <Col md={6}>
+              <img src={electronicsBay} className="elecBay-pic" />
+            </Col>
             <Col
               md={6}
               data-aos="fade-left"
               data-aos-delay="100"
               data-aos-easing="ease-in"
+              className="elecBay"
             >
-              <h3>Live Telemetry</h3>
-              <p>
-                To control the hybrid motor, to get a live feedback and data
-                from the rocket, and to successfully recover the rocket, a
-                reliable telemetry system is required. So, the Avionics and
-                Recovery subteam develops a telemetry system that utilizes RF
-                and organizes multiple steps to validate the reliability of the
-                system.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={6} data-aos="fade-right">
               <h3>Electronics Bay</h3>
               <p>
                 Having an easily accessible and amendable platform to work on
@@ -70,6 +61,19 @@ class Avionics extends Component {
                 electronics bay that the subteam develops allows the team to
                 access each layer of the bay individually and enables the team
                 to swap out any broken pieces without a problem.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6} data-aos="fade-right">
+              <h3>Live Telemetry</h3>
+              <p>
+                To control the hybrid motor, to get a live feedback and data
+                from the rocket, and to successfully recover the rocket, a
+                reliable telemetry system is required. So, the Avionics and
+                Recovery subteam develops a telemetry system that utilizes RF
+                and organizes multiple steps to validate the reliability of the
+                system.
               </p>
             </Col>
           </Row>

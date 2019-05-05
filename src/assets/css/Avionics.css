@@ -29,3 +29,14 @@ h2 {
   width: 50%;
   margin-left: 25%;
 }
+
+.elecBay h3 {
+  margin-top: 65px;
+}
+
+.elecBay-pic {
+  width: 30%;
+  margin-left: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
