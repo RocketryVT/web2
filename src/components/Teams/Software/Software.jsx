@@ -6,6 +6,10 @@ import Repos from "./Repos";
 import Members from "../Members";
 
 class Software extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   getRepos() {}
 
   render() {

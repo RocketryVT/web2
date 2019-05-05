@@ -9,6 +9,10 @@ import "../../../assets/css/Avionics.css";
 AOS.init();
 
 class Avionics extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
