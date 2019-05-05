@@ -10,6 +10,10 @@ import * as data from "../../assets/data.json";
 AOS.init();
 
 class Teams extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   showTeams() {
     return data.teams.map(team => {
       return (

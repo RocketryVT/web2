@@ -7,6 +7,10 @@ import "../assets/css/Home.css";
 import coverPhoto from "../assets/images/rocket_fullscreen.jpg";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
