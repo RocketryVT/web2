@@ -4,7 +4,7 @@ import "../assets/css/Apply.css";
 class Apply extends Component {
   render() {
     return (
-      <div className="top-div">
+      <div className="apply">
         <h1>Applications will open August, 2019</h1>
       </div>
     );

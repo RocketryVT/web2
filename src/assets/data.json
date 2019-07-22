@@ -9,7 +9,7 @@
     {
       "name": "Payload",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "This year, a scientific research payload will be constructed and flown at the 2019 Spaceport America Cup. The payload will also be entered into the Space Dynamics Laboratory payload challenge. In the past, a successful payload has been one that addresses relevant issues to the aerospace/ rocketry community and takes advantage of the unique factors associated with high powered rocketry. Previously, Rocketry at Virginia Tech has made a weather data collection probe targeted towards tornado research and a test to determine the effects of motor exhaust on radio attenuation. We are currently exploring ideas for this years competition involving machine learning, vibration reduction, advanced imaging technology, effects of foreign objects and debris (FOD), and altimeter selection/ evaluation. Ideas across all STEM related fields are being considered until our October 26th deadline, where the most innovative and applicable experiment will be selected. Upon selection, an update containing the payload proposal will be sent to the potential sponsors. The student designed scientific payload will be constrained to a 3U form factor and fully independent of the launch vehicle.",
+      "description": "The Payload Subteam is tasked with the unique challenge of designing, creating, and competing in the Space Dynamics Laboratory Payload Challenge with an unique scientific experiment. The payload follows the unique 3U Cubesat form factor and is entirely modular from the launch vehicle. Our past payloads have focused on collecting atmospheric data for tornado research and solid rocket motor's effects on radio attenuation due to plasma.The 2018-2019 payload subteam consists of 7 members and is focusing on two primary objectives. The first is to design a new modular Cube Sat structure that is customizable and reusable year to year. The second goal is to compete in the Space Dynamics Laboratory CubeSat challenge with a vibration isolation study to determine effective ways to mitigate the transmission of vibrations on a sounding rocket. This will be conducted by using passive vibration isolation materials and the development of an active control system, as a stretch project, to target low frequency vibrations.",
       "link": "/software"
     },
     {
@@ -19,16 +19,16 @@
       "link": "/software"
     },
     {
-      "name": "Avionics",
+      "name": "Avionics & Recovery",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
-      "description": "this year we are developing a live telemetry system which will enable us to receive live feedback of the flight from the rocket. To reinforce safety of successful recovery, we are developing a Landing Location Estimation program. All those advanced calculations will be enabled by a new on-board computer that will be developed this year. To improve future flights, we will implant various sensors throughout the rocket in efforts to collect rich and diverse flight data that can be used in the future projects.",
-      "link": "/software"
+      "description": "The Avionics and Recovery subteam operates to achieve the following three main goals for a successful flight: developing a flight system to achieve a target apogee, obtaining valuable flight data, and installing reliable tracking and recovery system. Having accomplished those goals, our team has taken a critical role in the success of the entire team – from reaching the mission apogee, recovering the rocket, to assisting future research with the flight data.",
+      "link": "/avionics"
     },
     {
       "name": "Aero-Structures",
       "img": "https://thumbs.dreamstime.com/z/make-team-245404.jpg",
       "description": "The Vehicle Development team is responsible for overall design and fabrication of the launch vehicle. This team starts with producing a two dimensional model of the launch vehicle and computes the basic flight performance characteristics of the rocket. The team takes these blueprints and creates a 3D CAD model that represents every detail of the rocket down to each individual bolt. We pride ourselves in manufacturing the majority of our vehicle components in house. We are continuously improving our composite manufacturing process, which was first implemented for the 2017 Spaceport America Cup",
-      "link" : "/software"
+      "link": "/software"
     },
     {
       "name": "Design Validation",
@@ -37,7 +37,7 @@
       "link": "/software"
     }
   ],
-  "HomePage" : {
+  "HomePage": {
     "AboutSplash": "Rocketry at Virginia Tech is an organization dedicated to exploring and testing the limits of high-powered amateur rocketry and sharing that experience with the rest of Virginia Tech. As a club, we help students get their high power rocketry certification from Tripoli Rocket Association or the National Association of Rocketry with the support of New River Valley Rocketry, the local rocket club. As a design team, we compete in competitions across the country - continually pushing the limits of what we know to go higher, faster, and farther. This is our fourth year as a team. This year, our team is composed of 50+ undergraduate students of all ages, from freshmen to seniors, across several STEM majors - from aerospace and mechanical engineers, to biomedical engineers and students of physics and engineering mechanics. Each member brings a variety of experiences to the table; we have students with several years of experience with high-power rocket competitions and with official high power certifications. Regardless of previous experience, Rocketry at Virginia Tech seeks to foster an environment in which members can explore their passion for high powered rocketry. That blend of experience and passion lends itself well to the nature of our work; we have a wide pool of experience, knowledge, and interests from which we can draw ideas from in a fun and constructive environment."
   }
 }

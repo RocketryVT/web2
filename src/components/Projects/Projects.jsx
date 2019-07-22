@@ -35,30 +35,44 @@ class Projects extends Component {
             <img src={rocket} alt="rocket" />
             <div className="nosecone">
               <CustomModal
-                title="Test Title"
-                description="test description"
+                title="Nosecone"
+                description="Insert info about nosecone"
                 location="/software"
                 buttonTitle="Nosecone"
               />
             </div>
             <div className="payload">
               <CustomModal
-                title="Test Title"
-                description="test description"
+                title="Payload"
+                description="Insert info about payload"
                 location="/software"
                 buttonTitle="Payload"
               />
             </div>
-            <div className="avionics">
+            <div className="electronics-bay">
               <CustomModal
-                title="Test Title"
-                description="test description"
-                location="/software"
+                title="Electronics Bay"
+                description="Having an easily accessible and amendable platform to work on can accelerate the manufacturing phase and enable the team to fix any issues on the electronics more conveniently. The modular electronics bay that the subteam develops allows the team to access each layer of the bay individually and enables the team to swap out any broken pieces without a problem."
+                location="/avionics"
                 buttonTitle="Electronics bay"
               />
             </div>
-            <div className="propulsion" />
-            <div className="fins" />
+            <div className="propulsion">
+              <CustomModal
+                title="Hybrid Motor"
+                description="Insert info about hybrid motor"
+                location="/software"
+                buttonTitle="Hybrid Motor"
+              />
+            </div>
+            <div className="fins">
+              <CustomModal
+                title="Active Drag System"
+                description="To control the rocket to meet the target apogee, the ADS deploys multiple airbrakes during the coast phase after the motor burnout to actively control the drag force of the rocket preventing the rocket to surpass the target apogee."
+                location="/avionics"
+                buttonTitle="Active Drag System"
+              />
+            </div>
           </div>
         </Col>
       </div>

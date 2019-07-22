@@ -1,5 +1,4 @@
 .top-div {
-  padding-top: 50px;
   overflow: hidden;
 }
 
@@ -9,4 +8,7 @@ h1 {
 
 .about-p {
   margin: 2% 15%;
+  padding-bottom: 5%;
+  text-align: left;
+  line-height: 2em;
 }
