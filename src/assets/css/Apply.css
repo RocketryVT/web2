@@ -1,4 +1,7 @@
 .apply {
-  padding-top: 10%;
-  padding-bottom: 25%;
+  padding: 0 15% 5% 15%;
+}
+
+.row {
+  padding-left: 5%;
 }
