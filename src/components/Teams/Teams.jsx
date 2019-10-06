@@ -48,7 +48,7 @@ class Teams extends Component {
               data-aos-delay="30"
               data-aos-easing="ease-in"
             >
-              <h1>Meet The Team...</h1>
+              <h1>Meet The Teams...</h1>
             </Col>
           </Row>
           <div className="teams">{this.showTeams()}</div>
